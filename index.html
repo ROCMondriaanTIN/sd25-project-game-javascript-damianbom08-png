@@ -4,11 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hangman Game</title>
-  <link rel="stylesheet" href="../p02-js-project2/css/styles.css">
+  <title>Whack a Mole</title>
+  <link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body>
+<header><h1>Welcom bij Whack a Mole</h1></header>
+
+<div>
+  <ol>
+    <li>sla de mollen die omhoog komen</li>
+    <li>sla zo veel mogelijk molen voordat de tijd op is</li>
+    <li>als je een mol slaat krijg je 1 punt</li>
+    <li>als je de mol niet optijd slaat krijg je geen punt</li>
+    <li>als je mis slaat krijg je ook geen punt</li>
+    <li>je kan dit niet met meerdere spelers spelen</li>
+  </ol>
+  <aside>
+  <form method="get" action="index.html">
+    <label for="naam">vul hier je naam in</label>
+    <input type="text" id="naam" name="naam" placeholder="bijv. piet" required>
+
+    <button type="submit">submit</button>
+  </form>
+</aside>
+</div>
+<div class="startlink">
+  <button class="startButton"><a href="mole.html">start game</a></button><button></button>
+</div>
+<script src="js/controller/controller.js"></script>
+<script src="js/model/WAM.js"></script>
+<script src="js/view/view.js"></script>
+<script src="js/start.js"></script>
 </body>
 </html>
 

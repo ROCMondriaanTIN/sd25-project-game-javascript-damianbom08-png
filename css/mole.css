@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 500px;
+    margin-right: 10px;
+    border: 2px solid blue;
+    background: lightblue;
+}
+  body{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    .mole-grid{
+        height: 100vmin;  
+        width: 100vmin;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        border: 2px solid black;
+    }
+
+    .div0{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
+     .div1{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
+     .div2{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
+     .div3{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
+     .div4{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
+     .div5{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
+     .div6{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
+     .div7{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
+     .div8{
+        border: 2px solid black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        cursor: pointer;
+        background: white;
+    }
