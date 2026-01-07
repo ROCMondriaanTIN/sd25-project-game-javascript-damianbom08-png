@@ -32,3 +32,8 @@ function handleHideMole(){
     myTimer=setTimeout(function(){handleShowMole()},2000);
 
 }
+
+function puntMol(){
+    moleId = addEventListener("click", console.log(clicked))
+};
+puntMol
