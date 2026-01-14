@@ -7,5 +7,10 @@ function start (){
     handleShowMole();
 }
 
+function klikMol(){
+    moleId = addEventListener("click", handleHideMole)
+    
+};
+klikMol()
 
 

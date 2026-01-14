@@ -33,7 +33,3 @@ function handleHideMole(){
 
 }
 
-function puntMol(){
-    moleId = addEventListener("click", console.log(clicked))
-};
-puntMol
