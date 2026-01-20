@@ -18,7 +18,6 @@ function showMole(id){
     let cell=document.getElementById(id);
     const img=document.createElement("img");
     img.src='img/mol 2.webp';
-    mole=img
 
     cell.appendChild(img);
 }
