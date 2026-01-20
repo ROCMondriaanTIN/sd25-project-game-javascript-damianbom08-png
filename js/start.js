@@ -7,7 +7,7 @@ function start (){
     gameActive=true; 
     handleShowMole();
     speltimer()
-    gameTimer=setInterval(speltimer,1000);
+    gameTimer=setInterval(speltimer,1000)
 }
 
 function klikMol(){

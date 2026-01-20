@@ -18,12 +18,12 @@ function showMole(id){
     let cell=document.getElementById(id);
     const img=document.createElement("img");
     img.src='img/mol 2.webp';
+    mole=img
 
     cell.appendChild(img);
 }
 
 function hideMole(id){
      const img=document.getElementsByTagName("img")[0];
-     console.log(img);
      img.parentNode.removeChild(img);
 }

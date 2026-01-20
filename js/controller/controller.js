@@ -54,10 +54,7 @@ function speltimer() {
     document.getElementById('clock').innerHTML=counter;
     counter--;
 }
-function hitMol(){
-    score++
-    document.getElementById('puntenTeller').textContent = "scrore: " + score
-}
+
 
 
 
