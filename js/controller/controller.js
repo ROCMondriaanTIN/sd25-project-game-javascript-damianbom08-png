@@ -2,7 +2,10 @@
 
 let moleId;
 let myTimer;
-
+let gameTimer;
+let counter=30;
+let gameActive=false;
+let score=0;
 // function handleCellClick(event){
 //     console.log(event.target.id)
 
@@ -20,16 +23,44 @@ let myTimer;
 
 
 function handleShowMole(){
-    moleId=Math.floor(Math.random()*9);
-    console.log("show mol");
-    console.log(moleId);
-    showMole(moleId);
-    myTimer=setTimeout(function(){handleHideMole()},2000);
+    if(gameActive) {
+         moleId=Math.floor(Math.random()*9);
+        console.log("show mol");
+        console.log(moleId);
+        showMole(moleId);
+        myTimer=setTimeout(function(){handleHideMole()},2000);
+    }
+   
 }
 
 function handleHideMole(){
-    hideMole(moleId);
-    myTimer=setTimeout(function(){handleShowMole()},2000);
+    if(gameActive) {
+       hideMole(moleId);
+        myTimer=setTimeout(function(){handleShowMole()},2000); 
+    }
+    
 
 }
+
+/*function speltimer(){
+    gameTimer=setTimeout(function(){speltimer(), alert("game over")},60000)
+}*/
+
+function speltimer() {
+    if (counter==0) {
+        gameActive=false;
+        clearInterval(gameTimer);
+    }
+    document.getElementById('clock').innerHTML=counter;
+    counter--;
+}
+function hitMol(){
+    score++
+    document.getElementById('puntenTeller').textContent = "scrore: " + score
+}
+
+
+
+
+
 
