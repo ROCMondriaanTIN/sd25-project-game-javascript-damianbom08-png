@@ -3,8 +3,9 @@
     grid-template-columns: auto auto auto;
     background-color: white;
     padding: 10px;
-    width: 350px;
+    width: 375px;
     margin: 20px auto;
+    
 }
 .mole-grid > div{
     background: white;
