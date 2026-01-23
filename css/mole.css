@@ -22,5 +22,15 @@ div >img {
 }
 #main-header{
     text-align: center;
+    background: lightblue;
 }
+p{
+    background: lightblue;
+    height: 100px;
+    width: 100px;
+}
+body{
+    background: lightgreen;
+}
+
 

@@ -14,15 +14,27 @@ const cells = document.querySelectorAll(".mole-grid")
 //     }
 // }
 
-function showMole(id){
-    let cell=document.getElementById(id);
-    const img=document.createElement("img");
-    img.src='img/mol 2.webp';
+let score = 0;
+
+function showMole(id) {
+    let cell = document.getElementById(id);
+    const img = document.createElement("img");
+    img.src = 'img/mol 2.webp';
+
+    img.addEventListener("click", function () {
+        score++;
+        document.getElementById("score").innerText = score;
+
+        cell.removeChild(img);
+    });
 
     cell.appendChild(img);
 }
 
-function hideMole(id){
-     const img=document.getElementsByTagName("img")[0];
-     img.parentNode.removeChild(img);
+function hideMole(id) {
+    let cell = document.getElementById(id);
+    const img = cell.querySelector("img");
+    if (img) {
+        cell.removeChild(img);
+    }
 }

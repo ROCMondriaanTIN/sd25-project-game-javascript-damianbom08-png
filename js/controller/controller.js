@@ -5,7 +5,6 @@ let myTimer;
 let gameTimer;
 let counter=30;
 let gameActive=false;
-let score=0;
 // function handleCellClick(event){
 //     console.log(event.target.id)
 
